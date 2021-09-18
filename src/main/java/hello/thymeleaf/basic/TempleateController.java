@@ -12,4 +12,9 @@ public class TempleateController {
     public String fragment() {
         return "template/fragment/fragmentMain";
     }
+
+    @GetMapping("/layout")
+    public String layout() {
+        return "template/layout/layoutMain";
+    }
 }
